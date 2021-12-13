@@ -1,0 +1,5 @@
+print("The end of the world was near.")
+print("Jimbo knew his life was coming to an end, soon.")
+print("There was nothing he could do.")
+print("Jimbo exclaimed: \"I don't want to die.\"")
+print("The donkey jumped off the cliff and died.")
