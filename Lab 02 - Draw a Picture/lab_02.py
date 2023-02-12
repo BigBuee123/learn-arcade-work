@@ -26,10 +26,15 @@ def on_draw(time_delta):
     arcade.draw_rectangle_filled(100, 300, 4, 30, arcade.csscolor.BLACK, tilt)
     arcade.draw_ellipse_filled(300, 300, 50, 50, arcade.color.WHITE)
     arcade.draw_rectangle_filled(300, 300, 4, 30, arcade.csscolor.BLACK, tilt)
-    arcade.draw_polygon_filled([(50, 375), (75, 400), (325, 400), (350, 375)], arcade.color.GREEN)
-    # arcade.draw_line_strip([(100,500),(300,500)],arcade.color.BLACK)
-    # line_width: float = 20
-    # arcade.draw_line_strip([(500,200),(50,500)],arcade.color.YELLOW)
+    arcade.draw_polygon_filled([(50, 375), (75, 400), (325, 400), (350, 375)], arcade.color.RED)
+
+    # house
+    arcade.draw_lrtb_rectangle_filled(400, 600, 550, 400, arcade.color.BEIGE)
+    arcade.draw_triangle_filled(350, 550, 500, 650, 650, 550, arcade.color.DARK_BROWN)
+    arcade.draw_lrtb_rectangle_filled(480, 520, 450, 400, arcade.color.BROWN)
+    arcade.draw_ellipse_filled(510, 420, 4, 10, arcade.color.BLACK)
+    arcade.draw_lrtb_rectangle_filled(425, 455, 450, 425, arcade.color.BLACK)
+    arcade.draw_lrtb_rectangle_filled(545, 575, 450, 425, arcade.color.BLACK)
 
     arcade.finish_render()
 
